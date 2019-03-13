@@ -31,3 +31,4 @@ rm(path.join(config.build.assetsRoot),
       ))
     })
   })
+ 

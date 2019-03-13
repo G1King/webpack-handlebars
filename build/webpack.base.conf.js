@@ -39,22 +39,22 @@ module.exports = {
     extensions: ['.js', '.hbs', '.json'],
     alias: {
       '~src': path.resolve(__dirname, '../src'),
-      '~asset': path.resolve(__dirname, '../static')
+  
     }
   },
   devtool: 'source-map',
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        loader: 'eslint-loader',
-        enforce: 'pre',
-        include: [resolve('src'), resolve('entries')],
-        options: {
-          formatter: require('eslint-friendly-formatter'),
-          eslintPath: require.resolve('eslint')
-        }
-      },
+      // {
+      //   test: /\.js$/,
+      //   loader: 'eslint-loader',
+      //   enforce: 'pre',
+      //   include: [resolve('src'), resolve('entries')],
+      //   options: {
+      //     formatter: require('eslint-friendly-formatter'),
+      //     eslintPath: require.resolve('eslint')
+      //   }
+      // },
       {
         test: /\.hbs$/,
         loader: 'handlebars-loader',

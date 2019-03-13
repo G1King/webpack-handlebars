@@ -38,7 +38,7 @@ htmls = htmls.map(function(html) {
   })
 })
 
-htmls.unshift(new AutoVersionPlugin({ ignoreSuffix: ['.vm'] }))
+htmls.unshift()
 // htmls.push(new AutoVersionPlugin({ ignoreSuffix: ['.vm'] }))
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -78,7 +78,9 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'manifest',
-      chunks: ['vendor']
+      chunks: ['vendor'],
+       async :'vendor-async',
+         minChunks: 3
     }),
     new CopyWebpackPlugin([
       {

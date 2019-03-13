@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 let htmls = fs.readdirSync(path.resolve(__dirname, '../htmls'))
   .filter(cv => cv.endsWith('.html'))
-const suffix = '.vm'
+const suffix = '.html'
 const files = {}
 htmls = htmls.map(function (html) {
   const name = html.split('.')[0]
@@ -13,9 +13,9 @@ module.exports = {
     env: require('./prod.env'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
-    productionSourceMap: true,
-    productionGzip: true,
+    assetsPublicPath: './',
+    productionSourceMap: false,
+    productionGzip: false,
     productionGizpExtensions: ['js', 'css'],
     bundleAnlyzerReport: false
   }, files),
