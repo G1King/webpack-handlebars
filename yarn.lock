@@ -3229,10 +3229,10 @@ handlebars-loader@^1.7.1:
     loader-utils "1.0.x"
     object-assign "^4.1.0"
 
-handlebars@^4.0.11:
-  version "4.1.0"
-  resolved "http://registry.npm.taobao.org/handlebars/download/handlebars-4.1.0.tgz#0d6a6f34ff1f63cecec8423aa4169827bf787c3a"
-  integrity sha1-DWpvNP8fY87OyEI6pBaYJ794fDo=
+handlebars@^4.0.14:
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.14.tgz#88de711eb693a5b783ae06065f9b91b0dd373a71"
+  integrity sha512-E7tDoyAA8ilZIV3xDJgl18sX3M8xB9/fMw8+mfW4msLW8jlX97bAnWgT3pmaNXuvzIEgSBMnAHfuXsB2hdzfow==
   dependencies:
     async "^2.5.0"
     optimist "^0.6.1"
