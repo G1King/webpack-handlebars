@@ -1215,7 +1215,7 @@ bootstrap-timepicker@^0.5.2:
   resolved "http://registry.npm.taobao.org/bootstrap-timepicker/download/bootstrap-timepicker-0.5.2.tgz#10ed9f2a2f0b8ccaefcde0fcf6a0738b919a3835"
   integrity sha1-EO2fKi8LjMrvzeD89qBzi5GaODU=
 
-bootstrap@^3.3.7, bootstrap@^3.4.0:
+bootstrap@^3.4.0, bootstrap@^3.4.1:
   version "3.4.1"
   resolved "http://registry.npm.taobao.org/bootstrap/download/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
   integrity sha1-w6NH1Bniia0R9AM+PEEyuHwIHXI=
